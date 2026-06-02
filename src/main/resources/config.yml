@@ -1,0 +1,22 @@
+settings:
+  player-feedback: "ACTION_BAR" # ACTION_BAR or CHAT
+  enabled-worlds:
+    - "boxpvp_world"
+  enabled-regions:
+    - "arena1"
+    - "arena2"
+
+blocks:
+  COBWEB:
+    remove-after-seconds: 5
+  OBSIDIAN:
+    remove-after-seconds: 10
+  SCAFFOLDING:
+    remove-after-seconds: 3
+
+messages:
+  prefix: "&#15FF08&lBoxPvP &8▸ "
+  no-permission: "&7Bu işlemi yapmak için &#00D420yetkiniz &7bulunmuyor."
+  block-placed: "&7Blok başarıyla yerleştirildi, &#ffd500%seconds% &7saniye sonra &#00D420silinecek&7."
+  cannot-place-here: "&7Bu bloğu bu &#00D420bölgede &7koyamazsın!"
+  plugin-reloaded: "&7MossBoxBlok eklentisi &#00D420başarıyla &7yenilendi."

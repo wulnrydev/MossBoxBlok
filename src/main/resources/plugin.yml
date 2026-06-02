@@ -1,0 +1,20 @@
+name: MossBoxBlok
+version: '1.0.0'
+main: com.mossboxblok.MossBoxBlokPlugin
+api-version: '1.21'
+authors:
+  - wulnrydev
+  - Marimoo
+depend:
+  - WorldGuard
+commands:
+  mossboxblok:
+    description: MossBoxBlok management command.
+    usage: /mossboxblok reload
+    aliases:
+      - mbb
+      - boxblok
+permissions:
+  mossboxblok.reload:
+    description: Allows reloading the MossBoxBlok configuration.
+    default: op
